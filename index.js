@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import ErrorBoundary from './components/ErrorBoundary';
+import TestComponent from './components/TestComponent'
 import './style.css';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
     return (
       <div>
        <ErrorBoundary>
-       
+        <TestComponent />
        </ErrorBoundary>
       </div>
     );

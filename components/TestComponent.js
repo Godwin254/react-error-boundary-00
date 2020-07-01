@@ -14,3 +14,5 @@ function TestComponent() {
     </div>
   )
 }
+
+export default TestComponent;
