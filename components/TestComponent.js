@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function TestComponent() {
 
-  let initialState = 0
+  let initialState = (50 % 2)
   const [count, setCount] = useState(initialState)
 
   const handleClick = (e) => {
@@ -18,6 +18,7 @@ function TestComponent() {
   }
 
   return (
+    //try and ommit a single letter from the {count}
     <div>
 
       <h1>Count: {count}</h1>
