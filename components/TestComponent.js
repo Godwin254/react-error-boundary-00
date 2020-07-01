@@ -9,7 +9,7 @@ function TestComponent() {
     <div>
 
       <h1>Count: {count}</h1>
-      <button>Increament</button>
+      <button onClick={()=>setCount(count + 1)}>Increament</button>
     
     </div>
   )
